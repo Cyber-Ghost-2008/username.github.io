@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wizarding Quiz</title>
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="quiz-container">
+        <h1>Wizarding Quiz</h1>
+        <div class="score-box" id="score-box">Score: 0/100</div>
+        <div class="question" id="question"></div>
+        <ul class="options" id="options"></ul>
+    </div>
+
+    <div class="popup" id="popup">
+        <div class="popup-content" id="popup-content"></div>
+        <button class="next-btn" id="next-btn">Next Question</button>
+    </div>
+
+    <div class="redirect" id="redirect">
+        <h2>Your Final Score: <span id="final-score"></span>/100</h2>
+        <a href="games.html" class="redirect-btn">Go Back to Games</a>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
